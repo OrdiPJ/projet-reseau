@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <!-- <link rel="stylesheet" href="./bootstrap/bootstrap-5.2.1-dist/css/bootstrap.css"> -->
+    <title>Meine résale sociaux</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Acceuil</a></li>
+                <li><a href="contact.html">Nous contacter</a></li>
+            </ul>
+        </nav>
+        <form action="login.html">
+            <input class="btn" type="submit" value="Se connecter">
+        </form>
+    </header>
+    <div class="separator"></div>
+    <section class="section-center">
+        <div class="title">
+            <h1>Nous contacter</h1>
+            <div class="underline"></div>
+        </div>
+        <div class="separator"></div>
+        <form action="envoi-mail.php" method="post">
+            <input class="form-control" type="email" name="email" placeholder="Votre email" required><br>
+            <textarea class="form-control" name="message" cols="30" rows="10" placeholder="Votre message" required></textarea><br>
+            <input class="form-control" type="submit" value="Envoyer">
+        </form>
+    </section>
+    <footer>
+        <p>Paulin JUHEN &copy; 2022<br> Tous droits réservés</p>
+        <nav>
+            <ul>
+                <li><a href="mentions.html">Mentions légales</a></li>
+                <li><a href="cgu.html">Conditions générales d'utilisation</a></li>
+            </ul>
+        </nav>
+    </footer>
+</body>
+</html>
