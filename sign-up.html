@@ -16,8 +16,16 @@
         <form action="enregistrement.php" method="post">
             <input type="text" name="name" placeholder="Votre nom" required>
             <input type="text" name="firstname" placeholder="Votre prénom" required>
+            <input type="radio" id="h" name="sex" value="Homme">
+            <label for="h">Homme</label>
+            <input type="radio" name="sex" value="Femme">
+            <label for="f">Femme</label>
             <input type="text" name="pseudo" placeholder="Votre nom d'utilisateur/pseudo" required>
-            <input type="email" name="email" placeholder=""Votre email>
+            <input type="email" name="email" placeholder="Votre email" required>
+            <input type="password" name="pass" placeholder="Votre mot de passe" required>
+            <input type="password" name="cpass" placeholder="Confiermez votre mot de passe" required>
+            <input type="checkbox" name="cgu" id="cgu" required>
+            <label for="cgu">J'accepte les <a href="cgu.html">CGU</a></label><br>
             <input type="submit" value="Se connecter">
         </form>
         <a href="login.html">Déjà un compte ? Connectez vous !</a>
